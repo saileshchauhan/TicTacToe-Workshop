@@ -8,6 +8,8 @@ namespace TicTacToeProject
         {
             TicTacToeGame ticTacToe = new TicTacToeGame();
             ticTacToe.Create_Board();
+            ticTacToe.Check_Player();
+            ticTacToe.Show_Board();
           
         }
 
